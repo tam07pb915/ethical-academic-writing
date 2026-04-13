@@ -22,12 +22,19 @@ AIに「論文を書かせる」のではなく，「自分が書いた論文を
 
 ```
 ethical-academic-writing/
-├── SKILL.md                          # スキル本体（241行）
+├── SKILL.md                          # スキル本体（日本語）
+├── SKILL-en.md                       # スキル本体（English）
+├── README.md
+├── LICENSE
 └── references/
-    ├── prompts.md                    # プロンプトテンプレート集（356行）
-    ├── style-guide.md                # 文体・ムーブ・時制ガイド（124行）
-    └── quality-checklist.md          # 品質チェックリスト（105行）
+    ├── prompts.md                    # プロンプトテンプレート集（日本語）
+    ├── prompts-en.md                 # Prompt template library (English)
+    ├── style-guide.md                # 文体・ムーブ・時制ガイド（日英共通）
+    ├── quality-checklist.md          # 品質チェックリスト（日本語）
+    └── quality-checklist-en.md       # Quality checklists (English)
 ```
+
+日本語版と英語版の主な違い：日本語版は日本語話者向けの前編集（pre-editing）の具体例や句読点ルールを含みます。英語版はL1を特定せず，非英語母語話者全般に適用できる形にしています。style-guide.mdは学術英語のルール集のため日英共通です。
 
 ## 使い方
 
@@ -84,11 +91,17 @@ Claude Code起動時にスキルが自動読み込みされます。
 - データの捏造・改ざんにつながる出力
 - AI検出回避を目的とした書き換え（humanizer的使用）
 
-## ライセンス
+## ライセンス / License
 
 MIT License
 
-## クレジット
+## クレジット / Credits
 
-- 原著ガイド：水本篤（関西大学 外国語学部・外国語教育学研究科）
-- スキル構成：田村祐（関西大学 外国語学部）
+- 原著ガイド / Original guide: 水本篤 Atsushi Mizumoto（関西大学 Kansai University）
+- スキル構成 / Skill design: 田村祐 Yu Tamura（関西大学 Kansai University）
+
+---
+
+## English
+
+This repository provides a Claude skill for ethical and efficient academic paper writing, based on [Atsushi Mizumoto's guide](https://langtech.jp/ai-writing/en/). Use `SKILL-en.md` with `references/prompts-en.md`, `references/style-guide.md`, and `references/quality-checklist-en.md` for the English version. See the Japanese sections above for installation instructions (the process is the same).
