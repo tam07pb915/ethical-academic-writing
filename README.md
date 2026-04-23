@@ -41,10 +41,10 @@ ethical-academic-writing/
 ### claude.ai（カスタムスキルとしてアップロード）— 推奨
 
 1. このリポジトリをZIPファイルとしてダウンロード（GitHub上の「Code」→「Download ZIP」）
-2. claude.aiで Settings > Capabilities に移動
-3. 「Code execution and file creation」が有効になっていることを確認
-4. Skillsセクションの「Upload skill」からZIPファイルをアップロード
-5. スキル一覧に表示されたらトグルをONにする
+2. claude.aiで Settings > カスタマイズ に移動（現行ではコネクタにいくと，カスタマイズへの移動を促されます）
+3. カスタマイズの中の「スキル」を選択
+4. S＋ボタンでスキルを作成を選択
+5. 「スキルをアップロード」を選んでZIPをアップロード
 
 論文関連のタスク（「英語を直して」「査読コメントに返事を書きたい」等）をClaudeに依頼すると，descriptionに基づいてスキルが自動的に適用されます。
 
